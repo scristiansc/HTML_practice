@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practicando html</title>
+    <style>
+        table, th, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carro</td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <td>Tamal</td>
+                <td>20$</td>
+            </tr>
+            <tr>
+                <td>Cuadro</td>
+                <td>80$</td>
+            </tr>
+            <tr>
+                <td>Casa</td>
+                <td>330$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 480$ </td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: upper-roman;">sub elemento 1</li>
+                <li style="list-style-type: upper-roman;">sub elemento 2</li>
+                <li style="list-style-type: upper-roman;">sub elemento 3</li>
+                <li style="list-style-type: upper-roman;">sub elemento 4</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario"> </textarea>
+        <br>
+        <button type="button">Enviar</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Heading</h1>
+    <h2>second heading</h2>
+    <h3>third heading</h3>
+    <h4>fourth heading</h4>
+    <h5>five heading</h5>
+    <h6>six heading</h6>
+    <hr>
+    <p>texto separado despues de la etiqueta linea horizontal</p>
+    <!-- comentando en html-->
+     <p>texto un poco <span style="color: blue">mas largo</span>
+        <br>para usar etiqueta span</p>
+    <a target="_blank" href="https://www.google.com.co"> Ir a google</a>
+    <br>
+    <a target="_blank" href="file:///C:/Users/LENOVO/OneDrive/Desktop/practice%20html/blog.html">Ir al blog</a>
+    <br>
+    <img src="img/paisaje.jpg" width="400" />
+</body>
+</html>
